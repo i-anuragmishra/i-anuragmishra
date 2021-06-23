@@ -8,7 +8,7 @@
 - 🔭 I’m currently working on Machine Learning and It's application Related to Fuzzy Numbers
 - 🌱 I’m currently learning A lot of stuff 😳😳😂😂
 - 👯 I’m looking to collaborate on an app for ML baised chatbots
-- 💬 Ask me about TensorFlow,Python or Any ML related stuff plus obviosly 
+- 💬 Ask me about TensorFlow,Python or Any ML related stuff or any other topic u wanna have a conversation over.
 - 📫 How to reach me: My Linkdin Profile: www.linkedin.com/in/i-anuragmishra
 - 😄 Pronouns: He/Him
 
