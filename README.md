@@ -1,5 +1,5 @@
 ### Hi there 👋
-### I am Anurag Mishra , a Coputer Science and Engineering Sophomore . I love doing projects in ML and Developing apps in Flutter and React.
+### I am Anurag Mishra , a Computer Science and Engineering Sophomore . I love doing projects in ML and Developing apps in Flutter and React.
 
 <!---
 **i-anuragmishra/i-anuragmishra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
