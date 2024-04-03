@@ -35,5 +35,6 @@ Welcome to my GitHub space! I'm a Master of Science student in Artificial Intell
 
 Let's explore the future of technology together! 🌈
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=i-anuragmishra&show_icons=true&theme=radical)
+<!--![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=i-anuragmishra&show_icons=true&theme=radical) -->
+
 
