@@ -1,6 +1,6 @@
 ### Hello, World! 👋 I'm Anurag Mishra
 
-Welcome to my GitHub space! I'm a Master of Science student in Artificial Intelligence at the Rochester Institute of Technology, with a rich background in Computer Science and Engineering from the Sikkim Manipal Institute of Technology, India. My academic journey is a blend of rigorous learning and practical application, fueled by a passion for exploring the frontiers of Machine Learning, Natural Language Processing, and a lot of AI research.
+Welcome to my GitHub space! I'm a Master of Science student in Artificial Intelligence at the Rochester Institute of Technology, with a rich background in Computer Science and Engineering from the Sikkim Manipal Institute of Technology, India. My academic journey is a blend of rigorous learning and practical application, fueled by a passion for exploring the frontiers of Machine Learning, Natural Language Processing, and AI research.
 
 ## 🚀 About Me
 
