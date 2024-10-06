@@ -31,7 +31,6 @@ Welcome to my GitHub space! I'm a Master of Science student in Artificial Intell
 - 🏅 Prime Minister Scholarships for Engineering
 - 🎖 Macquarie Group Scholarship from edX
 - 🏆 Silver Elite Rank in NPTEL Data Science Course
-- 🥇 Won a Machine Learning App Hackathon at College
 
 Let's explore the future of technology together! 🌈
 
