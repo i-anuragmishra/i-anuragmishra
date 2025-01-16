@@ -1,12 +1,10 @@
---- --- @import "minima";
+--- # Only the main Sass file needs front matter (the dashes are enough) --- @import "minima";
 
-// Custom variables
 $coral-red: #FF6B6B;
 $dodger-blue: #1E90FF;
 $light-gray: #f8f9fa;
 $dark-gray: #343a40;
 
-// Custom styles
 .site-header {
     border-top: 5px solid $coral-red;
     border-bottom: 1px solid $light-gray;
@@ -22,13 +20,11 @@ $dark-gray: #343a40;
     }
 }
 
-.site-nav {
-    .page-link {
-        color: $dark-gray;
+.site-nav .page-link {
+    color: $dark-gray;
 
-        &:hover {
-            color: $dodger-blue;
-        }
+    &:hover {
+        color: $dodger-blue;
     }
 }
 
