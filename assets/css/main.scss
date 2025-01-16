@@ -1,5 +1,4 @@
---- --- // Import theme styles
-@import "minima";
+--- --- @import "minima";
 
 // Custom variables
 $coral-red: #FF6B6B;
@@ -8,25 +7,27 @@ $light-gray: #f8f9fa;
 $dark-gray: #343a40;
 
 // Custom styles
-.masthead {
-    background-color: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+.site-header {
+    border-top: 5px solid $coral-red;
+    border-bottom: 1px solid $light-gray;
+    min-height: 60px;
+    background: white;
+}
 
-    &__inner-wrap {
-        padding: 1rem 2rem;
+.site-title {
+    color: $dark-gray;
+
+    &:hover {
+        color: $dodger-blue;
     }
+}
 
-    nav {
-        background: none;
+.site-nav {
+    .page-link {
+        color: $dark-gray;
 
-        a {
-            color: $dark-gray;
-            font-weight: 500;
-            transition: color 0.3s ease;
-
-            &:hover {
-                color: $dodger-blue;
-            }
+        &:hover {
+            color: $dodger-blue;
         }
     }
 }
@@ -38,7 +39,6 @@ $dark-gray: #343a40;
     padding: 2rem;
     margin: 1rem 0;
     transition: transform 0.3s ease;
-    border: none;
 
     &:hover {
         transform: translateY(-5px);
@@ -81,4 +81,25 @@ $dark-gray: #343a40;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin: 2rem 0;
+}
+
+.author-profile {
+    text-align: center;
+    margin: 2rem 0;
+
+    .author-avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        color: $dark-gray;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: lighten($dark-gray, 20%);
+    }
 }
