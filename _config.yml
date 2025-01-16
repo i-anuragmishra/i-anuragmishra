@@ -1,11 +1,12 @@
 title: Anurag Mishra
-email: your-email@domain.com
+email: am2552@g.rit.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Anurag Mishra
+  Personal website of Anurag Mishra - MS in AI student at RIT, 
+  researching Machine Learning and Natural Language Processing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://i-anuragmishra.github.io" # the base hostname & protocol for your site
-twitter_username: your-twitter-handle
+url: "https://i-anuragmishra.github.io"
 github_username: i-anuragmishra
+linkedin_username: i-anuragmishra
 
 # Build settings
 markdown: kramdown
@@ -16,11 +17,11 @@ permalink: pretty
 author:
   name: "Anurag Mishra"
   avatar: "profile.png"
-  bio: "Your bio here"
-  location: "Your Location"
-  employer: 
+  bio: "MS in AI student at RIT | Machine Learning & NLP Researcher"
+  location: "Rochester, NY"
+  employer: "Rochester Institute of Technology"
   googlescholar: 
-  email: 
+  email: "am2552@g.rit.edu"
   researchgate:
   uri:
   bitbucket:
@@ -34,7 +35,7 @@ author:
   keybase:
   instagram:
   lastfm:
-  linkedin:
+  linkedin: "i-anuragmishra"
   orcid: 
   pinterest:
   soundcloud:
@@ -67,4 +68,60 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
-    permalink: /:collection/:path/ 
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true 
