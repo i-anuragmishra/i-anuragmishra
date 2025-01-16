@@ -8,31 +8,42 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master of Science student in Artificial Intelligence at the Rochester Institute of Technology, with a background in Computer Science and Engineering from Sikkim Manipal Institute of Technology, India. My research interests include Machine Learning, Natural Language Processing, and AI research.
+I am a Master of Science student in Artificial Intelligence at the Rochester Institute of Technology, specializing in Machine Learning and Natural Language Processing. My research focuses on developing innovative solutions in AI, with particular emphasis on time series analysis and NLP applications.
 
-A data-driven personal website
+Research Interests
 ======
-Like many other Jekyll-based GitHub Pages templates, this website is built using [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com). The content is written in Markdown files, while the template handles the presentation.
+* **Machine Learning & Deep Learning**
+  * Time series analysis and prediction models
+  * Statistical machine learning methods
+  * Neural network architectures
 
-Current Research Focus
-======
-- Time series analysis and prediction models
-- Natural Language Processing applications
-- Statistical machine learning methods
-- Emergency management education programs for the deaf community (NSF Grant Project)
+* **Natural Language Processing**
+  * Text analysis and generation
+  * Language understanding systems
+  * Multimodal learning
 
-Recent Work
+Current Research
 ======
-* Graduate Student Assistant at RIT
-  * Working on emergency management education programs
+* **NSF Grant Project - Emergency Management Education**
+  * Leading the development of AI-powered educational modules
   * Part of $1 million NSF grant project
-  * Developing educational modules
+  * Focus on accessibility for the deaf community
 
-* Research at DRDO, India
-  * Fuzzy Number Theory application in AI/ML
-  * Algorithm optimization
-  * Data analysis and modeling
+* **Graduate Research at RIT**
+  * Time series prediction models
+  * NLP applications in educational technology
+  * Machine learning for accessibility
 
-For more info
+Previous Research Experience
+======
+* **Research at DRDO, India**
+  * Applied Fuzzy Number Theory in AI/ML systems
+  * Algorithm optimization for real-world applications
+  * Data analysis and predictive modeling
+
+Contact
 ------
-More information can be found in my [CV](/cv/) or you can contact me at [am2552@g.rit.edu](mailto:am2552@g.rit.edu). 
+I'm always open to research collaborations and discussions. Feel free to reach out:
+* Email: [am2552@g.rit.edu](mailto:am2552@g.rit.edu)
+* LinkedIn: [i-anuragmishra](https://linkedin.com/in/i-anuragmishra)
+* GitHub: [i-anuragmishra](https://github.com/i-anuragmishra) 

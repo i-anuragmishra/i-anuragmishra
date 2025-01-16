@@ -1,15 +1,13 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Portfolio"
+  - title: "Research"
+    url: /publications/
+  - title: "Projects"
     url: /portfolio/
   - title: "Publications"
     url: /publications/
-  - title: "Talks"
-    url: /talks/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Blog Posts"
-    url: /year-archive/
-  - title: "CV"
-    url: /cv/ 
+  - title: "Experience"
+    url: /cv/
+  - title: "Contact"
+    url: /about/ 
