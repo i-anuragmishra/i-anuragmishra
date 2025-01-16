@@ -10,8 +10,8 @@ linkedin_username: i-anuragmishra
 
 # Build settings
 markdown: kramdown
-remote_theme: academicpages/academicpages.github.io
-permalink: pretty
+remote_theme: academicpages/academicpages.github.io@gh-pages
+repository: i-anuragmishra/i-anuragmishra.github.io
 
 # Site Author
 author:
@@ -54,6 +54,40 @@ title_separator: "-"
 name: &name "Anurag Mishra"
 breadcrumbs: false
 words_per_minute: 160
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Collections
 collections:
@@ -124,4 +158,20 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true 
+      share: true
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji 
