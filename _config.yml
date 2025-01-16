@@ -10,7 +10,8 @@ linkedin_username: i-anuragmishra
 
 # Build settings
 markdown: kramdown
-remote_theme: academicpages/academicpages.github.io@master
+theme: jekyll-theme-minimal
+remote_theme: academicpages/academicpages.github.io
 repository: i-anuragmishra/i-anuragmishra.github.io
 
 # Site Author
