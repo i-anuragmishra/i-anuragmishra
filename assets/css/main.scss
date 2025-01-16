@@ -1,17 +1,84 @@
---- # Main style file --- @charset "utf-8";
+--- --- // Import theme styles
+@import "minima";
 
-// Custom colors
+// Custom variables
 $coral-red: #FF6B6B;
 $dodger-blue: #1E90FF;
 $light-gray: #f8f9fa;
 $dark-gray: #343a40;
 
-// Import theme and custom styles
-@import "variables";
-@import "base";
-@import "custom";
-@import "sidebar";
-@import "archive";
-@import "page";
-@import "syntax";
-@import "override";
+// Custom styles
+.masthead {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+    &__inner-wrap {
+        padding: 1rem 2rem;
+    }
+
+    nav {
+        background: none;
+
+        a {
+            color: $dark-gray;
+            font-weight: 500;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: $dodger-blue;
+            }
+        }
+    }
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    margin: 1rem 0;
+    transition: transform 0.3s ease;
+    border: none;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+        color: $dodger-blue;
+        margin-bottom: 1rem;
+    }
+}
+
+.section {
+    padding: 4rem 0;
+    margin: 3rem 0;
+    border-radius: 8px;
+    background: $light-gray;
+
+    h2 {
+        color: $dark-gray;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: $coral-red;
+            border-radius: 2px;
+        }
+    }
+}
+
+.research-areas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
