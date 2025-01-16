@@ -10,7 +10,7 @@ linkedin_username: i-anuragmishra
 
 # Build settings
 markdown: kramdown
-remote_theme: academicpages/academicpages.github.io@gh-pages
+remote_theme: academicpages/academicpages.github.io@master
 repository: i-anuragmishra/i-anuragmishra.github.io
 
 # Site Author
