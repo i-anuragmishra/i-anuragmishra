@@ -146,3 +146,26 @@ $navicon-width : 28px !default;
 $navicon-height : 4px !default;
 $global-transition : all 0.2s ease-in-out !default;
 $masthead-height: 85px !default;
+
+/* Colors */
+$coral-red: #FF6B6B;
+$dodger-blue: #1E90FF;
+$light-gray: #f8f9fa;
+$dark-gray: #343a40;
+
+/* Brand colors */
+$primary-color: $dodger-blue;
+$secondary-color: $coral-red;
+$background-color: #ffffff;
+$text-color: $dark-gray;
+
+/* Links */
+$link-color: $dodger-blue;
+$link-color-hover: darken($dodger-blue, 15%);
+
+/* Buttons */
+$button-background: $coral-red;
+$button-background-hover: darken($coral-red, 10%);
+
+/* Headers */
+$header-color: $dark-gray;

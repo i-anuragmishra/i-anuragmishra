@@ -2,12 +2,10 @@ main:
   - title: "About"
     url: /about/
   - title: "Research"
-    url: /publications/
+    url: /research/
   - title: "Projects"
     url: /portfolio/
   - title: "Publications"
     url: /publications/
   - title: "Experience"
-    url: /cv/
-  - title: "Contact"
-    url: /about/ 
+    url: /experience/ 
