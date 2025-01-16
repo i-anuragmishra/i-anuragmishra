@@ -13,6 +13,15 @@ markdown: kramdown
 remote_theme: academicpages/academicpages.github.io@master
 repository: i-anuragmishra/i-anuragmishra.github.io
 
+# Theme Settings
+minimal_mistakes_skin: "default"
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - assets/css
+
 # Site Author
 author:
   name: "Anurag Mishra"
